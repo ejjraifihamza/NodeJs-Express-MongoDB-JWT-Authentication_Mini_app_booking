@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-express-mongodb-jwt-authentication_mini_app_booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "dotenv": "^14.2.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
